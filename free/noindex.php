@@ -199,14 +199,10 @@ if (!$_SESSION['auth']) {
 </div>
 
 
-<!-- <button type="button" class="btn btn-sm text-light "  >
-  <span id="skvnamelab" style="font-weight: bold; font-size: 22px;" onClick="colPan10()" >Скважина</span>
-</button> -->
 <div class="text-center">
 <button type="button"  id="skvnamelab"  data-toggle="tooltip" data-placement="bottom" title="Выбор текущей скважины" class="btn  bg-secondary" style="font-weight: bold; padding-top:0; padding-bottom:0; font-size: 22px;" onClick="colPan10();"><img src='css/well.svg' width="30" height="30" style="font-weight: bold; padding-top:0; padding-bottom:3px; font-size: 22px;"><a id="skvnamelabt" style="color:white;">Выберите скважину</a></button>
 </div>
 <div class="text-right">
-<!-- <a class='btn ' data-toggle="tooltip" data-placement="bottom" title="Выход из приложения" style=" padding-top:3; padding-bottom:3; font-size: 18px;" onClick="exit('exit','exit','exit');"><img src='css/exit.svg'  width="27" height="27"></a> -->
 </div>
 </nav>
 
@@ -216,12 +212,11 @@ if (!$_SESSION['auth']) {
     <li><a href="#tabs-1" > <span id="tabsn-1" >     </span></a></li>
     <li><a href="#tabs-2"> <span id="tabsn-2" >     </span></a></li>
     <li><a href="#tabs-3"> <span id="tabsn-3" >     </span></a></li>
-    <!-- <li><a href="#tabs-3"> <span id="tabsn-3" >     </span></a></li>
-    <li><a href="#tabs-4"> <span id="tabsn-4" >     </span></a></li> -->
+  
   </ul>
   <div id="taabs-1" class="bg-dark" style="display: block;  margin: 0 auto; background-color:black;"></div>
   <div id="taabs-2" class="bg-dark" style="display: block;  margin: 0 auto; background-color:black;"></div>
-  <!-- <div id="taabs-3" class="bg-dark" style="display: block;  margin: 0 auto; "></div> -->
+  
   <div id="taabs-3"  class="bg-light" style="display: block;  margin: 0 auto; background-color:black; margin: 0; padding: 0;"></div>
   
   <!-- <div id="tabs-2">
@@ -235,26 +230,14 @@ if (!$_SESSION['auth']) {
 <!-- style="touch-action: none;" -->
 <div id="drawing" class="bg-dark"  ></div> 
 <!-- <div id="tabvideo" width="100%" height="100%"  class="bg-dark" style = "background-color:black;" ></div> -->
+
 <script type="text/javascript">
 function getStart() {
   $('#dropdownMenu2').hide();
-      //alert('ok');
+  
 	  pongpong();
-	 /*  $("#wells").iziModal();
-	  //$("#modal").iziModal();
-	  $("#kalendar").iziModal();
-	  $("#lupa").iziModal();
-	  $("#lupa").iziModal();
-	  $("#addgraf").iziModal();
-	  $("#nastrstolb").iziModal();
-	  $("#nastrgraf").iziModal();
-	  $("#nastrtxtpar").iziModal();
-	  $("#nastrtxtlabel").iziModal();
-	  $("#openfile").iziModal();
-    $("#savefile").iziModal(); */
-    window.onresize = function(event) {
+	  window.onresize = function(event) {
     repaint();
-    //console.log('ресайз');
     };
 	  
 	  
@@ -356,20 +339,6 @@ window.onload = getStart;
   <label for="hcolcolor">Редактирование экрана:</label><input class="form-control input-lg bg-dark text-light"type="checkbox" id="editscrn" name="editscrn"/>
   
   
-  <!-- <label class="invisible" for="hcolcolor">Кнопка "Лупа":</label><input class="invisible form-control input-lg bg-dark text-light"type="color" id="rawsvg1" name="rawsvg1" value="#e66465"/>
-  
-  
-  <label class="invisible" for="hcolcolor">Кнопка "Форма":</label><input class="invisible form-control input-lg bg-dark text-light"type="color" id="rawsvg2" name="rawsvg2" value="#e66465"/>
-  
-   
-  <label class="invisible" for="hcolcolor">Кнопка "Прием данных":</label><input class="invisible form-control input-lg bg-dark text-light"type="color" id="rawsvg3" name="rawsvg3" value="#e66465"/>
-  
-   
-  <label class="d-none invisible" for="hcolcolor">Кнопка "Форма":</label><input class="invisible d-none form-control input-lg bg-dark text-light"type="color" id="rawsvg4" name="rawsvg4" value="#e66465"/>
-  
-  
-  <label  class="invisible" for="hcolcolor">Фон кнопок (белый/ черный):</label><input class="form-control input-lg bg-dark text-light invisible"type="checkbox" id="fonbut" name="fonbut"/> -->
-         </div>
         
         <!-- Modal footer -->
         <div class="modal-footer">
